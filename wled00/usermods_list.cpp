@@ -214,9 +214,9 @@ void registerUsermods()
    * \/ \/ \/
    */
   //usermods.add(new MyExampleUsermod());
-  #ifdef NANOLEAF_DISPLAY
-  usermods.add(new NanoLeaf_Display());
-  #endif
+
+  
+  usermods.add(new NanoLeafDisplay());
 
   #ifdef USERMOD_BATTERY
   usermods.add(new UsermodBattery());
